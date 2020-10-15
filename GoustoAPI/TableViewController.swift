@@ -9,8 +9,13 @@
 import UIKit
 
 class TableViewController: UIViewController {
+    var dataSource = ProductData()
 
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView! {
+        didSet {
+            tableView.dataSource = dataSource
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
