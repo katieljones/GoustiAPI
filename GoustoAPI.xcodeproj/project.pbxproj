@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD9A2EF025387A0300995935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2EEF25387A0300995935 /* AppDelegate.swift */; };
+		BD9A2EF225387A0300995935 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2EF125387A0300995935 /* SceneDelegate.swift */; };
+		BD9A2EF425387A0300995935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2EF325387A0300995935 /* ViewController.swift */; };
+		BD9A2EF725387A0300995935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9A2EF525387A0300995935 /* Main.storyboard */; };
+		BD9A2EF925387A0700995935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9A2EF825387A0700995935 /* Assets.xcassets */; };
+		BD9A2EFC25387A0700995935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9A2EFA25387A0700995935 /* LaunchScreen.storyboard */; };
+		BD9A2F0725387A0800995935 /* GoustoAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2F0625387A0800995935 /* GoustoAPITests.swift */; };
+		BD9A2F1225387A0800995935 /* GoustoAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2F1125387A0800995935 /* GoustoAPIUITests.swift */; };
+		BD9A2F2025387FDD00995935 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2F1F25387FDD00995935 /* TableViewController.swift */; };
+		BD9A2F262538869000995935 /* ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2F252538869000995935 /* ProductTests.swift */; };
+		BD9A2F2E25388CAA00995935 /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2F2D25388CAA00995935 /* ProductData.swift */; };
+		BD9A2F3025388CCF00995935 /* Prod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A2F2F25388CCF00995935 /* Prod.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD9A2F0325387A0800995935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9A2EE425387A0300995935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9A2EEB25387A0300995935;
+			remoteInfo = GoustoAPI;
+		};
+		BD9A2F0E25387A0800995935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9A2EE425387A0300995935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9A2EEB25387A0300995935;
+			remoteInfo = GoustoAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD9A2EEC25387A0300995935 /* GoustoAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoustoAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9A2EEF25387A0300995935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD9A2EF125387A0300995935 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD9A2EF325387A0300995935 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD9A2EF625387A0300995935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD9A2EF825387A0700995935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD9A2EFB25387A0700995935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD9A2EFD25387A0700995935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9A2F0225387A0800995935 /* GoustoAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoustoAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9A2F0625387A0800995935 /* GoustoAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoustoAPITests.swift; sourceTree = "<group>"; };
+		BD9A2F0825387A0800995935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9A2F0D25387A0800995935 /* GoustoAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoustoAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9A2F1125387A0800995935 /* GoustoAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoustoAPIUITests.swift; sourceTree = "<group>"; };
+		BD9A2F1325387A0800995935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9A2F1F25387FDD00995935 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BD9A2F252538869000995935 /* ProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTests.swift; sourceTree = "<group>"; };
+		BD9A2F2D25388CAA00995935 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
+		BD9A2F2F25388CCF00995935 /* Prod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prod.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD9A2EE925387A0300995935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9A2EFF25387A0800995935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9A2F0A25387A0800995935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD9A2EE325387A0200995935 = {
+			isa = PBXGroup;
+			children = (
+				BD9A2EEE25387A0300995935 /* GoustoAPI */,
+				BD9A2F0525387A0800995935 /* GoustoAPITests */,
+				BD9A2F1025387A0800995935 /* GoustoAPIUITests */,
+				BD9A2EED25387A0300995935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD9A2EED25387A0300995935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A2EEC25387A0300995935 /* GoustoAPI.app */,
+				BD9A2F0225387A0800995935 /* GoustoAPITests.xctest */,
+				BD9A2F0D25387A0800995935 /* GoustoAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD9A2EEE25387A0300995935 /* GoustoAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A2EEF25387A0300995935 /* AppDelegate.swift */,
+				BD9A2EF125387A0300995935 /* SceneDelegate.swift */,
+				BD9A2EF325387A0300995935 /* ViewController.swift */,
+				BD9A2EF525387A0300995935 /* Main.storyboard */,
+				BD9A2F1F25387FDD00995935 /* TableViewController.swift */,
+				BD9A2F2D25388CAA00995935 /* ProductData.swift */,
+				BD9A2F2F25388CCF00995935 /* Prod.swift */,
+				BD9A2EF825387A0700995935 /* Assets.xcassets */,
+				BD9A2EFA25387A0700995935 /* LaunchScreen.storyboard */,
+				BD9A2EFD25387A0700995935 /* Info.plist */,
+			);
+			path = GoustoAPI;
+			sourceTree = "<group>";
+		};
+		BD9A2F0525387A0800995935 /* GoustoAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A2F0625387A0800995935 /* GoustoAPITests.swift */,
+				BD9A2F252538869000995935 /* ProductTests.swift */,
+				BD9A2F0825387A0800995935 /* Info.plist */,
+			);
+			path = GoustoAPITests;
+			sourceTree = "<group>";
+		};
+		BD9A2F1025387A0800995935 /* GoustoAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A2F1125387A0800995935 /* GoustoAPIUITests.swift */,
+				BD9A2F1325387A0800995935 /* Info.plist */,
+			);
+			path = GoustoAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD9A2EEB25387A0300995935 /* GoustoAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9A2F1625387A0800995935 /* Build configuration list for PBXNativeTarget "GoustoAPI" */;
+			buildPhases = (
+				BD9A2EE825387A0300995935 /* Sources */,
+				BD9A2EE925387A0300995935 /* Frameworks */,
+				BD9A2EEA25387A0300995935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoustoAPI;
+			productName = GoustoAPI;
+			productReference = BD9A2EEC25387A0300995935 /* GoustoAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD9A2F0125387A0800995935 /* GoustoAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9A2F1925387A0800995935 /* Build configuration list for PBXNativeTarget "GoustoAPITests" */;
+			buildPhases = (
+				BD9A2EFE25387A0800995935 /* Sources */,
+				BD9A2EFF25387A0800995935 /* Frameworks */,
+				BD9A2F0025387A0800995935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9A2F0425387A0800995935 /* PBXTargetDependency */,
+			);
+			name = GoustoAPITests;
+			productName = GoustoAPITests;
+			productReference = BD9A2F0225387A0800995935 /* GoustoAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD9A2F0C25387A0800995935 /* GoustoAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9A2F1C25387A0800995935 /* Build configuration list for PBXNativeTarget "GoustoAPIUITests" */;
+			buildPhases = (
+				BD9A2F0925387A0800995935 /* Sources */,
+				BD9A2F0A25387A0800995935 /* Frameworks */,
+				BD9A2F0B25387A0800995935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9A2F0F25387A0800995935 /* PBXTargetDependency */,
+			);
+			name = GoustoAPIUITests;
+			productName = GoustoAPIUITests;
+			productReference = BD9A2F0D25387A0800995935 /* GoustoAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD9A2EE425387A0300995935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Katie Jones";
+				TargetAttributes = {
+					BD9A2EEB25387A0300995935 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					BD9A2F0125387A0800995935 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = BD9A2EEB25387A0300995935;
+					};
+					BD9A2F0C25387A0800995935 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = BD9A2EEB25387A0300995935;
+					};
+				};
+			};
+			buildConfigurationList = BD9A2EE725387A0300995935 /* Build configuration list for PBXProject "GoustoAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD9A2EE325387A0200995935;
+			productRefGroup = BD9A2EED25387A0300995935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD9A2EEB25387A0300995935 /* GoustoAPI */,
+				BD9A2F0125387A0800995935 /* GoustoAPITests */,
+				BD9A2F0C25387A0800995935 /* GoustoAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD9A2EEA25387A0300995935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9A2EFC25387A0700995935 /* LaunchScreen.storyboard in Resources */,
+				BD9A2EF925387A0700995935 /* Assets.xcassets in Resources */,
+				BD9A2EF725387A0300995935 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9A2F0025387A0800995935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9A2F0B25387A0800995935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD9A2EE825387A0300995935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9A2EF425387A0300995935 /* ViewController.swift in Sources */,
+				BD9A2EF025387A0300995935 /* AppDelegate.swift in Sources */,
+				BD9A2F3025388CCF00995935 /* Prod.swift in Sources */,
+				BD9A2EF225387A0300995935 /* SceneDelegate.swift in Sources */,
+				BD9A2F2025387FDD00995935 /* TableViewController.swift in Sources */,
+				BD9A2F2E25388CAA00995935 /* ProductData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9A2EFE25387A0800995935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9A2F0725387A0800995935 /* GoustoAPITests.swift in Sources */,
+				BD9A2F262538869000995935 /* ProductTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9A2F0925387A0800995935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9A2F1225387A0800995935 /* GoustoAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD9A2F0425387A0800995935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD9A2EEB25387A0300995935 /* GoustoAPI */;
+			targetProxy = BD9A2F0325387A0800995935 /* PBXContainerItemProxy */;
+		};
+		BD9A2F0F25387A0800995935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD9A2EEB25387A0300995935 /* GoustoAPI */;
+			targetProxy = BD9A2F0E25387A0800995935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD9A2EF525387A0300995935 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9A2EF625387A0300995935 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD9A2EFA25387A0700995935 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9A2EFB25387A0700995935 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD9A2F1425387A0800995935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD9A2F1525387A0800995935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD9A2F1725387A0800995935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoustoAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoustoAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD9A2F1825387A0800995935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoustoAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoustoAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD9A2F1A25387A0800995935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoustoAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoustoAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoustoAPI.app/GoustoAPI";
+			};
+			name = Debug;
+		};
+		BD9A2F1B25387A0800995935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoustoAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoustoAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoustoAPI.app/GoustoAPI";
+			};
+			name = Release;
+		};
+		BD9A2F1D25387A0800995935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoustoAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoustoAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoustoAPI;
+			};
+			name = Debug;
+		};
+		BD9A2F1E25387A0800995935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoustoAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoustoAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoustoAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD9A2EE725387A0300995935 /* Build configuration list for PBXProject "GoustoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9A2F1425387A0800995935 /* Debug */,
+				BD9A2F1525387A0800995935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9A2F1625387A0800995935 /* Build configuration list for PBXNativeTarget "GoustoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9A2F1725387A0800995935 /* Debug */,
+				BD9A2F1825387A0800995935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9A2F1925387A0800995935 /* Build configuration list for PBXNativeTarget "GoustoAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9A2F1A25387A0800995935 /* Debug */,
+				BD9A2F1B25387A0800995935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9A2F1C25387A0800995935 /* Build configuration list for PBXNativeTarget "GoustoAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9A2F1D25387A0800995935 /* Debug */,
+				BD9A2F1E25387A0800995935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD9A2EE425387A0300995935 /* Project object */;
+}
